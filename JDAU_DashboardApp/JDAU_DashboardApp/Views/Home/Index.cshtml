@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="react-app">Loading...</div>
+@*Sashi*@
+@*<app asp-prerender-module="ClientApp/dist/main-server">Loading...</app>*@
+
+@section scripts {
+    <script src="~/dist/main.js" asp-append-version="true"></script>
+}

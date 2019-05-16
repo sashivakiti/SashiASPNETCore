@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JDAUWebAPI", "JDAUWebAPI\JDAUWebAPI.csproj", "{242605FB-6AF7-4476-88BB-5F38395ECDA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{242605FB-6AF7-4476-88BB-5F38395ECDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242605FB-6AF7-4476-88BB-5F38395ECDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242605FB-6AF7-4476-88BB-5F38395ECDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242605FB-6AF7-4476-88BB-5F38395ECDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87C9D28C-4C6D-4E10-8B4C-21029506ED66}
+	EndGlobalSection
+EndGlobal

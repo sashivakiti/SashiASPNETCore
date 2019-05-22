@@ -240,3 +240,8 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/JDAU_DashboardApp/MC-REPORTV01.csv
+/JDAU_DashboardApp/MC-REPORTV01_20190522010014.csv
+*.htm
+*.XLSX
+/JDAU_DashboardApp/MC-REPORTV01_20190522010014_files

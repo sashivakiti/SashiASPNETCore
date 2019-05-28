@@ -245,3 +245,7 @@ ModelManifest.xml
 *.htm
 *.XLSX
 /JDAU_DashboardApp/MC-REPORTV01_20190522010014_files
+/JDAU_DashboardApp/jdsports/jdsports
+/JDAU_DashboardApp/JDAU_DashboardApp/ClientApp/img
+/JDAU_DashboardApp/JDAU_DashboardApp/ClientApp/js
+/JDAU_DashboardApp/jdsports_old/jdsports

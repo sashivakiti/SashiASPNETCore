@@ -25,6 +25,9 @@ namespace JDAU_DashboardApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //spa.UseProxyToSpaDevelopmentServer("http://localhost:55077");
+
             //services.AddApplicationInsightsTelemetry(Configuration);
             //services.AddTransient<IMyInjectedService, MyInjectedService>();
             var conStr = Configuration.GetConnectionString("JDFlowconStr");

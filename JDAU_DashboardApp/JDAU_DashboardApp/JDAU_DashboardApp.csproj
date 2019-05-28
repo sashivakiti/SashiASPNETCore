@@ -24,7 +24,13 @@
 
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
+    <Compile Remove="ClientApp\img\**" />
+    <Compile Remove="ClientApp\js\**" />
     <Content Remove="ClientApp\**" />
+    <EmbeddedResource Remove="ClientApp\img\**" />
+    <EmbeddedResource Remove="ClientApp\js\**" />
+    <None Remove="ClientApp\img\**" />
+    <None Remove="ClientApp\js\**" />
   </ItemGroup>
 
   <ItemGroup>

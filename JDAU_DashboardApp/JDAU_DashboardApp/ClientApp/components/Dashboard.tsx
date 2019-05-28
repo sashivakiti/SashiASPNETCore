@@ -8,7 +8,7 @@ export class Dashboard extends React.Component<RouteComponentProps<{}>, {}> {
             
             <table className="tg">
                 <tr>
-                    <th className="tg-7btt" >JD Sports Multi-channel Report v.2</th>
+                    <th className="tg-7btt">JD Sports Multi-channel Report v.2</th>
                 </tr>
                 <tr>
                     <td className="tg-0pky"></td>

@@ -1,0 +1,896 @@
+﻿body {
+    font-family: 'Muli', sans-serif;
+}
+.heading{
+    background-color:#000;
+    padding: 15px;
+}
+.left_align{
+    float: left;
+}
+input,button,template,select{
+    outline: none;
+}
+.jd_set select{
+    border: none;
+    color: #000;
+    font-size: 17px;
+    padding: 8px 13px;
+    background-color: #fff;
+    font-weight: bold;
+    width: 96%;
+}
+.jd_set{
+    width: 288px;
+}
+.jd_icon{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 3px 7px 2px;
+    margin-left: -42px;
+    font-size: 23px;
+    position: relative;
+    margin-top: 9px;
+    top: 3px;
+}
+.page_width{
+    width: 43%;
+    margin: auto;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: #FFF;
+}
+.box_set{
+    padding: 30px;
+}
+.blackbtn{
+    width: 39%;
+    margin: 16px auto 40px;
+}
+
+.blackbtn label{
+    color: #000;
+    font-size: 29px;
+    font-weight: normal;
+    margin: 0;
+}
+.live_sale h1{
+    border: none;
+    border-radius: 11px;
+    text-align: center;
+    color: #d40404;
+    font-size: 43px;
+    background-image: linear-gradient(360deg, #000, #444444);
+    margin: 8px 0 0;
+    padding: 15px;
+}
+.table1{
+    width: 50%;
+    margin: 10px auto 10px;
+}
+.table_style table {
+    width: 100%;
+    border: 1px solid #fff;
+    font-size: 20px;
+    margin: 0 0 40px;
+
+}
+.table_style td{
+    color: #000;
+    border: 1px solid #fff;
+    padding: 11px;
+}
+.table_style th{
+    background-color: #5bc0de;
+    color: #fff;
+    border: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+    font-weight: bold;
+    width: 25%;
+}
+.blue_color_dark{
+    background-color: #5b9bd5;
+}
+.blue_color_light{
+    background-color: #d1deef;
+}
+.blue_color_light1{
+    background-color: #e9eff7;
+}
+.text_center{
+    text-align: center;
+}
+.benner{
+    background-color: #5b9bd5;
+    border: 1px solid #43729d;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 86px;
+    margin-bottom: 30px;
+}
+.benner h1{
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+
+}
+.back_button{
+    width: 85px;
+}
+.back_button button{
+    text-align: center;
+    color: #fff;
+    background-color: #ed7d31;
+    border: 1px solid #af5c24;
+    border-radius: 8px;
+    padding: 7px 0;
+    font-size: 17px;
+    width: 100%;
+}
+.reports_bg {
+    background-color: #edece1;
+    padding: 10px 0;
+}
+.sub_headin{
+    text-align: center;
+    color: #000;
+    font-size: 23px;
+    padding: 0 7px 7px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.date label{
+    color: #000;
+    font-weight: normal;
+    font-size: 17px;
+    padding-left: 81px;
+    margin: 10px 0px 0;
+}
+.date_name{
+    padding-left: 20px;
+}
+.grid_set_2 {
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 10px 0;
+}
+.border_none{
+    border:none !important;
+}
+.white_bg{
+    background-color:#fff;
+}
+.grids_table th {
+    text-align: left;
+    border: 1px solid #000;
+    font-size:12px;
+    padding:5px;
+    letter-spacing:1px;
+}
+.grids_table td {
+    padding: 0;
+    border: 1px solid #000;
+    font-size: 12px;
+    padding: 5px;
+    letter-spacing:1px;
+}
+.border_double{
+    border:2px solid #000 !important;
+}
+.table_col_3 table {
+    background-color: transparent;
+    width: 100%;
+}
+.center_text{
+    text-align:center !important;
+}
+.text_rigt{
+    text-align:right !important;
+}
+.text_left{
+    text-align:left !important;
+}
+.vertical{
+    vertical-align:bottom !important;
+}
+.grid_set{
+    padding:20px 0 0px;
+}
+.td_width{
+    width: 69px;
+}
+.gross_td{
+    width: 115px;
+}
+.cancelled_td{
+    width: 100px;
+}
+.table_col_3{
+    padding: 0 0 20px;
+}
+.nav_heding{
+    color: #fff;
+    font-size: 26px;
+}
+.filters{
+    margin: 25px 0 0;
+}
+.filters ul{
+    padding:0px;
+    list-style: none;
+}
+.filters li{
+    float: left;
+    padding-right: 10px;
+    width:23%;
+}
+.filters_field input {
+    border: none;
+    color: #000;
+    font-size: 17px;
+    padding: 8px 13px;
+    background-color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.filters_field select {
+    border: none;
+    color: #000;
+    font-size: 17px;
+    padding: 8px 13px;
+    background-color: #fff;
+    font-weight: bold;
+    width: 96%;
+}
+.jd_icon2 {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 3px 7px 2px;
+    margin-left: -42px;
+    font-size: 23px;
+    position: relative;
+    margin-top: 9px;
+    top: 3px;
+}
+.go_li{
+    width: 55px !important;
+}
+
+.filters_field button{
+    background-color: #70ad47;
+    border: 1px solid #527f34;
+    border-radius: 10px;
+    padding: 10px 17px;
+    color: #fff;
+    font-size: 14px;
+}
+.fiter_icon{
+    background-color: #fff;
+    font-size: 12px;
+    color: #000;
+    position: relative;
+    left: -10px;
+}
+.body_height{
+    height: 900px;
+}
+
+@media screen and (max-width: 0px) {
+}
+
+@media screen and (min-width: 1px) and (max-width: 320px) {
+    .page_width {
+        width: 97%;
+    }
+    .tops {
+        margin: 4px 0px -18px;
+    } .box_set {
+        padding: 15px;
+    }
+
+    .blackbtn {
+        width: 94%;
+        margin: 7px auto 38px;
+    }
+
+    .jd_set {
+        width: 274px;
+        margin-top: 15px;
+    }
+        .left_align img {
+            margin: auto;
+            display: block;
+        }
+
+    .table1 {
+        width: 100%;
+        margin: 7px auto 7px;
+    }
+
+    .padding_none {
+        padding: 0px;
+    }
+
+    .benner h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+
+    .benner {
+        height: 84px;
+    }
+
+    .table_style table {
+        font-size: 16px;
+        margin: 0 0 22px;
+    }
+    .live_sale h1 {
+        font-size: 33px;
+    }
+    .back_button {
+        width: 93px;
+        margin-top: 13px;
+    }
+    .back_button {
+        width: 93px;
+        margin-top: 13px;
+    }
+
+    .nav_heding {
+        color: #fff;
+        font-size: 18px;
+        margin: 15px 19px 15px 12px;
+        text-align: left !important;
+        position: relative;
+        left: -25px;
+    }
+
+    .filters li {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0 10px 7px;
+    }
+
+    .filters_field input {
+        width: 96%;
+    }
+
+    .go_li {
+        width: 97% !important;
+    }
+
+    .filters_field button {
+        width: 100%;
+    }
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+
+    .flote_left1 {
+        float: left;
+        position: relative;
+        left: 165px;
+        top: -56px;
+        margin-bottom: -68px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 400px) {
+    .tops {
+        margin: 5px 0 -10px;
+    } 
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+
+    .flote_left1 {
+        float: left;
+    }
+
+    .filters li {
+        width: 22%;
+    }
+    .page_width {
+        width: 97%;
+    }
+    .box_set {
+        padding: 15px;
+    }
+    .blackbtn {
+        width: 94%;
+        margin: 7px auto 38px;
+    }
+    .jd_set {
+        width: 308px;
+        margin: 15px 8px 0;
+    }
+    .left_align {
+        float: left;
+        width: 100%;
+    }
+    .left_align img{
+        margin:auto;
+        display:block;
+    }
+    .table1 {
+        width: 100%;
+        margin: 7px auto 7px;
+    }
+    .padding_none{
+        padding:0px;
+    }
+    .benner h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+    .benner {
+        height: 84px;
+    }
+    .table_style table {
+        font-size: 16px;
+        margin: 0 0 22px;
+    }
+    .back_button {
+        width: 93px;
+        margin-top: 13px;
+    }
+    .nav_heding {
+        color: #fff;
+        font-size: 18px;
+        margin: 15px 19px 15px 12px;
+        text-align: left !important;
+        position: relative;
+        left: -25px;
+    }
+    .filters li {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0 10px 7px;
+    }
+    .filters_field input {
+        width: 96%;
+    }
+    .go_li {
+        width: 97% !important;
+    }
+    .filters_field button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 415px) {
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+
+    .flote_left1 {
+        float: left;
+    }
+
+    .back_button {
+        width: 93px;
+        margin-top: 13px;
+    }
+
+    .nav_heding {
+        color: #fff;
+        font-size: 18px;
+        margin: 15px 19px 15px 12px;
+        text-align: left !important;
+        position: relative;
+        left: -25px;
+    }
+
+    .filters li {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0 10px 7px;
+    }
+
+    .filters_field input {
+        width: 96%;
+    }
+
+    .go_li {
+        width: 97% !important;
+    }
+
+    .filters_field button {
+        width: 100%;
+    }
+    .tops {
+        margin: 4px 24px -17px;
+    } 
+    .page_width {
+        width: 97%;
+    }
+
+    .box_set {
+        padding: 15px;
+    }
+
+    .blackbtn {
+        width: 94%;
+        margin: 7px auto 38px;
+    }
+
+    .jd_set {
+        width: 308px;
+        margin: 15px 22px 0;
+    }
+
+    .left_align {
+        float: left;
+        width: 100%;
+    }
+
+        .left_align img {
+            margin: auto;
+            display: block;
+        }
+
+    .table1 {
+        width: 100%;
+        margin: 7px auto 7px;
+    }
+
+    .padding_none {
+        padding: 0px;
+    }
+
+    .benner h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+
+    .benner {
+        height: 84px;
+    }
+
+    .table_style table {
+        font-size: 16px;
+        margin: 0 0 22px;
+    }
+}
+
+@media screen and (min-width: 416px) and (max-width: 480px) {
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+
+    .flote_left1 {
+        float: left;
+    }
+
+    .tops {
+        margin: 16px 30px -4px;
+    }
+    .filters2 li {
+        float: left;
+        padding-right: 0;
+        width: 100%;
+        padding: 11px 0px 10px 15px;
+    }
+    .filters_field input {
+        width: 96%;
+    }
+    .go_li{
+        width:100% !important;
+    } 
+    .page_width {
+        width: 97%;
+    }
+    .filters_field button {
+        width: 97%;
+        padding: 7px 17px;
+        color: #fff;
+        font-size: 19px;
+    }
+
+    .box_set {
+        padding: 15px;
+    }
+
+    .blackbtn {
+        width: 94%;
+        margin: 7px auto 38px;
+    }
+
+    .jd_set {
+        width: 308px;
+        margin: 26px 58px 0;        
+    }
+
+    .left_align {
+        float: left;
+        width: 100%;
+    }
+
+        .left_align img {
+            margin: auto;
+            display: block;
+        }
+
+    .table1 {
+        width: 92%;
+        margin: 7px auto 7px;
+    }
+    .benner h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+
+    .benner {
+        height: 84px;
+    }
+
+    .table_style table {
+        font-size: 16px;
+        margin: 0 0 22px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .page_width {
+        width: 100%;
+    }
+    .blackbtn {
+        width: 67%;
+    }
+    .table1 {
+        width: 95%;
+        margin: 10px auto 10px;
+    }
+    .benner h1 {
+        top: 50%;
+    }
+    .jd_set {
+        width: 214px;
+    }
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+
+    .flote_left1 {
+        float: left;
+    }
+    .nav_heding {
+        color: #fff;
+        font-size: 19px;
+        margin-top: 6px;
+    }
+    .filters li {
+        float: left;
+        padding-right: 10px;
+        width: 22%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 720px) {
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+
+    .flote_left1 {
+        float: left;
+    }
+
+    .nav_heding {
+        color: #fff;
+        font-size: 19px;
+        margin-top: 6px;
+    }
+
+    .filters li {
+        float: left;
+        padding-right: 10px;
+        width: 22%;
+    }
+    .page_width {
+        width: 100%;
+    }
+
+    .blackbtn {
+        width: 67%;
+    }
+
+    .table1 {
+        width: 95%;
+        margin: 10px auto 10px;
+    }
+
+    .benner h1 {
+        top: 50%;
+    }
+
+    .jd_set {
+        width: 214px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 767px) {
+    .page_width {
+        width: 97%;
+    }
+
+    .box_set {
+        padding: 15px;
+    }
+
+    .blackbtn {
+        width: 94%;
+        margin: 7px auto 38px;
+    }
+
+    .jd_set {
+        width: 308px;
+        margin-top: 15px;
+    }
+
+    .left_align {
+        float: left;
+        width: 322px;
+    }
+
+        .left_align img {
+            margin: auto;
+            display: block;
+        }
+
+    .table1 {
+        width: 100%;
+        margin: 7px auto 7px;
+    }
+
+    .padding_none {
+        padding: 0px;
+    }
+
+    .benner h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+
+    .benner {
+        height: 84px;
+    }
+
+    .table_style table {
+        font-size: 16px;
+        margin: 0 0 22px;
+    }
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+    .flote_left1{
+        float:left;
+    }
+    .filters li {
+        width: 22%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .flote_left {
+        float: left;
+        display: inherit;
+    }
+
+    .flote_left1 {
+        float: left;
+    }
+    .filters2 li {
+        float: left;
+        padding-right: 0;
+        width: 100% !important;
+        padding: 11px 0px 10px 15px;
+    }
+
+    .filters_field input {
+        width: 96%;
+    }
+    .filters_field button {
+        width: 97%;
+        padding: 7px 17px;
+        color: #fff;
+        font-size: 19px;
+    }
+
+    .go_li {
+        width: 100% !important;
+    } 
+    .nav_heding {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .filters li {
+        float: left;
+        padding-right: 10px;
+        width: 22%;
+    }
+    .left_align {
+        float: left;
+        width: 204px;
+    }
+        .left_align img{
+           width:100%;
+        } .page_width {
+            width: 63%;
+        }
+
+    .box_set {
+        padding: 15px;
+    }
+
+    .blackbtn {
+        width: 94%;
+        margin: 7px auto 38px;
+    }
+
+    .jd_set {
+        width: 161px;
+        margin-top: 0;
+    }
+    .table1 {
+        width: 93%;
+        margin: 7px auto 7px;
+    }
+
+   
+
+    .benner h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+
+    .benner {
+        height: 84px;
+    }
+
+    .table_style table {
+        font-size: 16px;
+        margin: 0 0 22px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+    .page_width {
+        width: 78%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+    .page_width {
+        width: 73%;
+    }
+}
+
+@media screen and (min-width: 1361px) and (max-width: 1440px) {
+    .page_width {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+}
+
+@media screen and (min-width: 1921px) {
+}

@@ -115,10 +115,12 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
                         </div>
                         <div className="leble_set">
                             <div className="row">
-                                <div className="col-md-4">
-                                    <div className="benner">
-                                        <h1>Today’s MC Report</h1>
-                                    </div>
+                                <div className="col-md-4">                                  
+                                        
+                                        <button className="benner"
+                                            title='Today’s MC Report'
+                                        >Today’s MC Report</button>
+                                    
                                 </div>
                                 <div className="col-md-4">
                                     <div className="benner">

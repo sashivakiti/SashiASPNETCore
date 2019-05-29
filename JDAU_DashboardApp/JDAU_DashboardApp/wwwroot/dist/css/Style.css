@@ -1,4 +1,7 @@
-﻿body {
+﻿.container-fluid {
+    padding: 0px;
+}
+body {
     font-family: 'Muli', sans-serif;
 }
 .heading{
